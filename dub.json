@@ -1,0 +1,24 @@
+{
+    "name": "discord-rpc",
+    "description": "A static binding to Discord RPC",
+
+    "copyright": "Copyright © 2018  0xEAB",
+    "license": "BSL-1.0",
+
+    "authors": [
+        "Elias Batek (0xEAB)"
+    ],
+
+    "targetPath": "bin",
+    "targetName": "discord-rpc-d",
+
+    "configurations": [
+        {
+            "name": "DISCORD_ENABLE_IO_THREAD"
+        },
+        {
+            "name": "DISCORD_DISABLE_IO_THREAD",
+            "versions": ["DISCORD_DISABLE_IO_THREAD"]
+        }
+    ]
+}
