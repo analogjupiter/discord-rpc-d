@@ -1,4 +1,4 @@
-# Discord-RPC-D
+# Discord RPC D
 
 A static binding to 🎮 Discord RPC.
 
